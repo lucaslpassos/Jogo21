@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(to left, #9e183c, #c01442);
+    text-align: center;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.oponent {
+    display: inline-block;
+    background-color: #73020C;
+    color: #D0D7D9;
+    width: 130px;
+    height: 60px;
+    border: 2px solid #D0D7D9;
+    border-radius: 10px;
+    margin: 20px 0px 30px 0px;
+    padding: 20px 30px;
+    box-shadow: 3px 3px 7px black
+}
+
+
+.bloconum {
+    display: inline-block;
+    color: #73020C;
+    font-size: 1,5em;
+    box-shadow: 5px 5px 10px black;
+    border: 5px solid #73020C;
+    border-radius: 5px;
+    width: 50%;
+    background-color: #D0D7D9;
+    padding: 50px 30px;
+    
+}
+
+.yournum {
+    display: inline-block;
+    background-color: #73020C;
+    color: #D0D7D9;
+    width: 130px;
+    height: 60px;
+    border: 2px solid #D0D7D9;
+    border-radius: 10px;
+    margin: 25px 0px 30px 0px;
+    padding: 20px 30px;
+    box-shadow: 3px 3px 7px black
+}
+
+.tudo{
+    display: grid;
+    place-items: center; /* Centraliza horizontal e verticalmente */
+    
+}
+
+button {
+    background-color: #D0D7D9;
+    width: 110px;
+    height: 50px;
+    margin: 0px 20px;
+    border-radius: 7px;
+}
+
+button:hover {
+    width: 120px;
+    height: 60px;
+    box-shadow: 3px 3px 7px black;
+    background-color: rgb(222, 166, 166);
+}
